@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#rectangularDivsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rectangular-div {
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(251, 229, 229, 0.1);
+}
+
+#addRectangularDiv {
+    margin-top: 20px;
+}
+
+/* Existing styles remain unchanged */
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#rectangularDivsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: Center divs horizontally */
+}
+
+.rectangular-div {
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#addRectangularDiv {
+    margin-top: 20px;
+}
+
+/* Existing styles remain unchanged */
+
+#bookSlotsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-slot {
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-slot button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#addBookSlot {
+    margin-top: 20px;
+}
+
+/* Existing styles remain unchanged */
+
+#bookSlotsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-slot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px; /* Adjust the width as needed */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-slot button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Existing styles remain unchanged */
+
+#bookSlotsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-slot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px; /* Adjust the width as needed */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-slot span {
+    margin-right: 10px;
+}
+
+.book-slot button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
